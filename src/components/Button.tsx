@@ -6,7 +6,7 @@ const buttonStyles = cva(["hover:bg-secondary-hover", "transition-colors"], {
   variants: {
     variant: {
       default: ["bg-secondary", "hover:bg-secondary-hover"],
-      ghost: ["hover:bg-gray-900"],
+      ghost: ["hover:bg-gray-100"],
     },
     size: {
       default: ["rounded", "p-2"],
@@ -15,11 +15,9 @@ const buttonStyles = cva(["hover:bg-secondary-hover", "transition-colors"], {
         "w-10",
         "h-10",
         "flex",
-        "bg-black",
         "items-center",
         "justify-center",
-        "border-none", 
-        "m-8",
+        // "border-none", 
         "p-2.5",
       ],
     },
